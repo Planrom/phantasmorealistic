@@ -6,6 +6,16 @@ var employer_pay_rate_info = document.getElementById("employer_pay_rate_info")
 
 var a, b, c
 
+employee_pay_rate.addEventListener("change", () => {
+    employer_pay_rate_error.innerHTML = ""
+    employer_pay_rate_info.innerHTML = ""
+})
+
+wsib_premium_rate.addEventListener("change", () => {
+    employer_pay_rate_error.innerHTML = ""
+    employer_pay_rate_info.innerHTML = ""
+})
+
 employer_pay_rate_button.addEventListener("click", () => {
     employer_pay_rate_error.innerHTML = ""
     employer_pay_rate_info.innerHTML = ""
