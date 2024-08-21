@@ -46,7 +46,7 @@ employer_pay_rate_button.addEventListener("click", () => {
     c = 0
 
     c = Number(1.14 * a) + Number((1.14 * a * b) / 100)
-    c = c + Number(c / 20) + 2.25
+    c = c + Number(c / 20) + 2.5
 
     employer_pay_rate_info.innerHTML =
         "Employee Pay Rate : <div style='display:inline;color:rgb(45,113,192)'>$" +
@@ -58,6 +58,6 @@ employer_pay_rate_button.addEventListener("click", () => {
         "Employer Pay Rate : <div style='display:inline;color:rgb(45,113,192)'>$" +
         Number(c) +
         "</div><br><br>" +
-        "Employer pay rate includes regular wage, vacation pay, employer ei, employer cpp, wsib insurance, public holiday pay, cost of oneengine operations and includes $0.75 cut for profit and growth.<br><br>" +
+        "Employer pay rate includes regular wage, vacation pay, employer ei, employer cpp, wsib insurance, public holiday pay, cost of oneengine operations and includes $1 cut for profit and growth.<br><br>" +
         "Overtime pay and premium pay will be 1.5 of <b>employer pay rate</b>"
 })
