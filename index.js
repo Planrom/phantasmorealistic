@@ -75,5 +75,7 @@ employer_pay_rate_button.addEventListener("click", () => {
         Number(c) +
         "</div><br><br>" +
         "Employer pay rate includes regular wage, vacation pay, employer ei, employer cpp, wsib insurance, public holiday pay, cost of oneengine operations <br><br>" +
-        "Overtime pay and premium pay will be 1.5 of <b>employer pay rate</b>"
+        "Overtime pay and premium pay will be 1.5 of <b>employer pay rate</b> <br><br>" +
+        "<b>Important: Profit is not included in the employer pay rate</b>"
+         
 })
