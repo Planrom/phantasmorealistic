@@ -60,7 +60,7 @@ employer_pay_rate_button.addEventListener("click", () => {
     if (c===0){
         c = 0
     }else{
-        c = c + Number(c / 20) + 1.5
+        c = c + Number(c / 20) + 2.0
     }
     
 
@@ -74,6 +74,6 @@ employer_pay_rate_button.addEventListener("click", () => {
         "Employer Pay Rate : <div style='display:inline;color:rgb(45,113,192)'>$" +
         Number(c) +
         "</div><br><br>" +
-        "Employer pay rate includes regular wage, vacation pay, employer ei, employer cpp, wsib insurance, public holiday pay, cost of oneengine operations<br><br>" +
+        "Employer pay rate includes regular wage, vacation pay, employer ei, employer cpp, wsib insurance, public holiday pay, cost of oneengine operations <br><br>" +
         "Overtime pay and premium pay will be 1.5 of <b>employer pay rate</b>"
 })
