@@ -61,7 +61,7 @@ employer_pay_rate_button.addEventListener("click", () => {
         c = 0
     }else{
         c = c + Number(c / 20) 
-        c = c + 1.4
+        c = c + 1.14
     }
     
 
